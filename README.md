@@ -80,3 +80,84 @@ namespace Xamarin.Forms
     }
 }
 
+
+
+
+
+Découverte de Xamarin :
+
+
+Générer des applications multiplatformes pour IOS, Android, Windows
+
+
+https://dotnet.microsoft.com/learn/xamarin/hello-world-tutorial/intro
+
+
+
+
+à propos de PUT et POST comme commandes HTTP
+
+
+https://www.keycdn.com/support/put-vs-post
+
+
+pushing a VS code on Github :
+https://github.com/github/VisualStudio/blob/master/docs/using/publishing-an-existing-project-to-github.md
+
+
+
+
+Les Grid pour la mise en page (ressemblances avec Qt):
+https://docs.microsoft.com/en-us/xamarin/get-started/tutorials/grid/?tabs=vswin
+
+
+
+
+Call a web API from a web client
+https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client
+
+
+API weatherstack Documentation :
+https://weatherstack.com/documentation
+
+
+
+
+master-detal :
+https://docs.microsoft.com/fr-fr/xamarin/xamarin-forms/app-fundamentals/navigation/master-detail-page#:~:text=Une%20page%20ma%C3%AEtre%20affiche%20g%C3%A9n%C3%A9ralement,la%20page%20de%20d%C3%A9tail%20correspondante.
+
+
+XAML ressemble au langage XML Généré par Qt Designer dans Qt Creator
+
+
+Hot Reload ok si on met à jour xamarin.forms:
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/hot-reload
+
+
+
+
+PostAsJsonAsync deprecié remplacé par PostAsync
+https://stackoverflow.com/questions/19158378/httpclient-not-supporting-postasjsonasync-method-c-sharp
+
+
+https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+
+
+Documentation xamarin :
+https://dotnet.microsoft.com/learn/xamarin/
+
+
+Le tutoriel pour prendre en main une API rest avec xamarin.forms :
+https://docs.microsoft.com/en-us/xamarin/get-started/tutorials/web-service/?WT.mc_id=docs-dotnet-learn&tabs=vswin
+
+
+Documentation API pour les variables du JSON :
+https://openweathermap.org/current
+https://openweathermap.org/api
+
+
+
+
+Documentation Microsoft pour faire tourner la REST API :
+https://docs.microsoft.com/en-us/xamarin/get-started/tutorials/web-service/?WT.mc_id=docs-dotnet-learn&tabs=vswin
+
