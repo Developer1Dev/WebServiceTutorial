@@ -39,7 +39,7 @@ JsonConvert
 En C#, un System.String est un JSON !
 https://www.newtonsoft.com/json/help/html/M_Newtonsoft_Json_JsonConvert_DeserializeObject.htm
 
-BindingContext est un attribut d'un BindableObject
+BindingContext est un attribut d'un BindableObject.
 
 Dans MainPage.xaml, quand je clique sur "Binding", clque droit, "afficher le code", cela me renvoie directement vers
 le code de MainPage.xaml.cs
