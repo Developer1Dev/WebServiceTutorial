@@ -48,3 +48,35 @@ Cette variable, permet de faire le lien entre les données récupérés en répo
 
 D'où l'utilisation du Mot-clé "Bind" dans le fichier MainPage.xaml à chaque fois que l'on a besoin d'une donnée issue de l'appel à l'API , donnée rangée dans weatherData et mise en lien avec BindingContext
 
+https://www.telerik.com/blogs/using-xaml-xamarin-forms-part-3-accessing-dynamic-data
+
+namespace Xamarin.Forms
+{
+    //
+    // Résumé :
+    //     Xamarin.Forms.Page qui affiche une vue unique.
+    [ContentProperty("Content")]
+    public class ContentPage : TemplatedPage
+    {
+        //
+        // Résumé :
+        //     Magasin de stockage de la propriété Xamarin.Forms.ContentPage.Content.
+        public static readonly BindableProperty ContentProperty;
+
+        public ContentPage();
+
+        //
+        // Résumé :
+        //     Obtient ou définit la vue qui comprend le contenu de la page.
+        //
+        // Valeur :
+        //     Une Xamarin.Forms.View sous-classe, nullou.
+        public View Content { get; set; }
+
+        //
+        // Résumé :
+        //     Méthode qui est appelée lorsque le contexte de liaison change.
+        protected override void OnBindingContextChanged();
+    }
+}
+
