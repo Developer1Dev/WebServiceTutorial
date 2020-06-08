@@ -41,3 +41,7 @@ BindingContext est un attribut d'un BindableObject
 Dans MainPage.xaml, quand je clique sur "Binding", clque droit, "afficher le code", cela me renvoie directement vers
 le code de MainPage.xaml.cs
 
+Cette variable, permet de faire le lien entre les données récupérés en réponse HTTP , et stockées dans BindingContext et ce sera donc affichée sur l'interface Front (mobile phone)
+
+D'où l'utilisation du Mot-clé "Bind" dans le fichier MainPage.xaml à chaque fois que l'on a besoin d'une donnée issue de l'appel à l'API , donnée rangée dans weatherData et mise en lien avec BindingContext
+
