@@ -113,10 +113,6 @@ https://docs.microsoft.com/en-us/xamarin/get-started/tutorials/grid/?tabs=vswin
 
 
 
-Call a web API from a web client
-https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client
-
-
 API weatherstack Documentation :
 https://weatherstack.com/documentation
 
@@ -147,17 +143,8 @@ Documentation xamarin :
 https://dotnet.microsoft.com/learn/xamarin/
 
 
-Le tutoriel pour prendre en main une API rest avec xamarin.forms :
-https://docs.microsoft.com/en-us/xamarin/get-started/tutorials/web-service/?WT.mc_id=docs-dotnet-learn&tabs=vswin
-
-
 Documentation API pour les variables du JSON :
 https://openweathermap.org/current
 https://openweathermap.org/api
 
-
-
-
-Documentation Microsoft pour faire tourner la REST API :
-https://docs.microsoft.com/en-us/xamarin/get-started/tutorials/web-service/?WT.mc_id=docs-dotnet-learn&tabs=vswin
 
