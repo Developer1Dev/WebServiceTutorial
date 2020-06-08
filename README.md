@@ -105,17 +105,8 @@ pushing a VS code on Github :
 https://github.com/github/VisualStudio/blob/master/docs/using/publishing-an-existing-project-to-github.md
 
 
-
-
-Les Grid pour la mise en page (ressemblances avec Qt):
-https://docs.microsoft.com/en-us/xamarin/get-started/tutorials/grid/?tabs=vswin
-
-
-
-
 API weatherstack Documentation :
 https://weatherstack.com/documentation
-
 
 
 
