@@ -4,6 +4,8 @@ Merci à Microsoft pour la documentation sur le langage C# .NET Xamarin
 Dans ce fichier, j'explique mon cheminement pour l'application de demande des données à l'API de météo :
 https://openweathermap.org/api
 
+J'ai également ajouté une image.
+
 Dans ce projet, il y a un fichier MainPage.xaml et MainPage.xaml.cs
 
 Dans le premier, cela ressemble beaucoup au fichier .xml généré par Qt Designer sous Qt Creator
