@@ -1,7 +1,7 @@
 # WebServiceTutorial
 Merci à Microsoft pour la documentation sur les API REST et C# .NET Xamarin
 
-Dans ce fichier, j'explique mon cheminement
+Dans ce fichier, j'explique mon cheminement.
 
 Dans ce projet, il y a un fichier MainPage.xaml et MainPage.xaml.cs
 
@@ -24,4 +24,20 @@ async void OnButtonClicked(object sender, EventArgs e)
        
  On est ici dans le cadre de la programmation événementielle , exactement comme avec Qt/C++
  
+ System.Net.Http.HttpClient fournit une classe de base pour envoyer des requêtes HTTP et recevoir des réponses HTTP d'une ressource idenitifiée par une URI (  https://dev.to/flippedcoding/what-is-the-difference-between-a-uri-and-a-url-4455#:~:text=For%20starters%2C%20URI%20stands%20for,are%20a%20subset%20of%20URIs. )
  
+response.Content.ReadAsStringAsync  : gets or sets la réponse d'un message HTTP ( C'est l'analogue de JSON.stringify
+
+On installe Newtonsoft Library pour utiliser JSON Converter, qui est un framework JSON haute-performance.
+https://www.c-sharpcorner.com/article/working-with-json-string-in-C-Sharp/
+
+JsonConvert
+
+En C#, un System.String est un JSON !
+https://www.newtonsoft.com/json/help/html/M_Newtonsoft_Json_JsonConvert_DeserializeObject.htm
+
+BindingContext est un attribut d'un BindableObject
+
+Dans MainPage.xaml, quand je clique sur "Binding", clque droit, "afficher le code", cela me renvoie directement vers
+le code de MainPage.xaml.cs
+
