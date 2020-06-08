@@ -1,7 +1,8 @@
 # WebServiceTutorial
-Merci à Microsoft pour la documentation sur les API REST et C# .NET Xamarin
+Merci à Microsoft pour la documentation sur le langage C# .NET Xamarin
 
-Dans ce fichier, j'explique mon cheminement.
+Dans ce fichier, j'explique mon cheminement pour l'application de demande des données à l'API de météo :
+https://openweathermap.org/api
 
 Dans ce projet, il y a un fichier MainPage.xaml et MainPage.xaml.cs
 
