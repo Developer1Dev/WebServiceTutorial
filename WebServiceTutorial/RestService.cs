@@ -8,31 +8,32 @@ namespace WebServiceTutorial
 {
     public class RestService
     {
-        HttpClient _client;
+        HttpClient client;
 
         public RestService()
         {
-            _client = new HttpClient();
+            client = new HttpClient();
         }
 
         public async Task<WeatherData> GetWeatherDataAsync(string uri)
         {
-            WeatherData weatherData = null;
+            WeatherData weatherDataNeeded = null;
             try
             {
-                HttpResponseMessage response = await _client.GetAsync(uri);
+                HttpResponseMessage response = await client.GetAsync(uri);
                 if (response.IsSuccessStatusCode)
                 {
                     string content = await response.Content.ReadAsStringAsync();
-                    weatherData = JsonConvert.DeserializeObject<WeatherData>(content);
+                    weatherDataNeeded = JsonConvert.DeserializeObject<WeatherData>(content);
                 }
             }
             catch (Exception ex)
             {
                 Debug.WriteLine("\tERROR {0}", ex.Message);
+                //https://docs.microsoft.com/en-us/dotnet/api/system.console.writeline?view=netcore-3.1#:~:text=WriteLine(String%2C%20Object%2C%20Object),using%20the%20specified%20format%20information.
             }
 
-            return weatherData;
+            return weatherDataNeeded;
         }
     }
 }

@@ -15,10 +15,11 @@ namespace WebServiceTutorial
 
         async void OnButtonClicked(object sender, EventArgs e)
         {
+            // On test que la variable que l'on a mise dans villeEntree n'est pas null ou un blanc
             if (!string.IsNullOrWhiteSpace(cityEntry.Text))
             {
-                WeatherData weatherData = await _restService.GetWeatherDataAsync(GenerateRequestUri(Constants.OpenWeatherMapEndpoint));
-                BindingContext = weatherData;
+                WeatherData weatherDataNeeded = await _restService.GetWeatherDataAsync(GenerateRequestUri(Constants.OpenWeatherMapEndpoint));
+                BindingContext = weatherDataNeeded;
             }
         }
 

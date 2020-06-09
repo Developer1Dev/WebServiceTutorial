@@ -21,8 +21,8 @@
                Text="Paris" />
         <Button Grid.ColumnSpan="2"
                 Grid.Row="1"
-                Text="Utilisateur : Daniel, ENTER"
-                Clicked="OnButtonClicked" />
+                Text="Utilisateur : D.K., ENTER"
+                Clicked="OnButtonClicked" />     <!-- comme en Qt , avec la gestion des signal & slots-->
         <Label Grid.Row="2"
                Text="La Localisation:" />
         <Label Grid.Row="2"
