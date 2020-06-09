@@ -37,23 +37,23 @@ https://www.c-sharpcorner.com/article/working-with-json-string-in-C-Sharp/
 
 Pour utiliser JsonConvert
 
-En C#, un System.String est un JSON !
+- En C#, un System.String est un JSON !
 https://www.newtonsoft.com/json/help/html/M_Newtonsoft_Json_JsonConvert_DeserializeObject.htm
 
 - BindingContext est un attribut d'un BindableObject.
 
-Dans MainPage.xaml, quand je clique sur "Binding", clque droit, "afficher le code", cela me renvoie directement vers
+- Dans MainPage.xaml, quand je clique sur "Binding", clque droit, "afficher le code", cela me renvoie directement vers
 le code de MainPage.xaml.cs
 
 - Cette variable, permet de faire le lien entre les données récupérés en réponse HTTP , et stockées dans BindingContext et ce sera donc affichée sur l'interface Front (mobile phone)
 
-D'où l'utilisation du Mot-clé "Bind" dans le fichier MainPage.xaml à chaque fois que l'on a besoin d'une donnée issue de l'appel à l'API, donnée rangée dans weatherData et mise en lien avec BindingContext
+- D'où l'utilisation du Mot-clé "Bind" dans le fichier MainPage.xaml à chaque fois que l'on a besoin d'une donnée issue de l'appel à l'API, donnée rangée dans weatherData et mise en lien avec BindingContext
 
 https://www.telerik.com/blogs/using-xaml-xamarin-forms-part-3-accessing-dynamic-data
 
         ContentPage.BindingContext
 
-namespace Xamarin.Forms
+- namespace Xamarin.Forms
 {
     //
     // Résumé :
@@ -87,56 +87,53 @@ namespace Xamarin.Forms
 
 
 
-Découverte de Xamarin :
-
+-Découverte de Xamarin :
 
 Générer des applications multiplatformes pour IOS, Android, Windows
-
 
 https://dotnet.microsoft.com/learn/xamarin/hello-world-tutorial/intro
 
 
 
 
-à propos de PUT et POST comme commandes HTTP
+- à propos de PUT et POST comme commandes HTTP
 
 https://www.keycdn.com/support/put-vs-post
 
 
-pushing a VS code on Github :
+- pushing a VS code on Github :
 https://github.com/github/VisualStudio/blob/master/docs/using/publishing-an-existing-project-to-github.md
 
 
-API weatherstack Documentation :
+- API weatherstack Documentation :
 https://weatherstack.com/documentation
 
 
-
-master-detal :
+- master-detal :
 https://docs.microsoft.com/fr-fr/xamarin/xamarin-forms/app-fundamentals/navigation/master-detail-page#:~:text=Une%20page%20ma%C3%AEtre%20affiche%20g%C3%A9n%C3%A9ralement,la%20page%20de%20d%C3%A9tail%20correspondante.
 
 
-XAML ressemble au langage XML Généré par Qt Designer dans Qt Creator
+- XAML ressemble au langage XML Généré par Qt Designer dans Qt Creator
 
 
-Hot Reload ok si on met à jour xamarin.forms:
+- Hot Reload ok si on met à jour xamarin.forms:
 https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/hot-reload
 
 
 
 
-PostAsJsonAsync deprecié remplacé par PostAsync
+- PostAsJsonAsync deprecié remplacé par PostAsync
 https://stackoverflow.com/questions/19158378/httpclient-not-supporting-postasjsonasync-method-c-sharp
 
 
-https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+- https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 
-Documentation xamarin :
+- Documentation xamarin :
 https://dotnet.microsoft.com/learn/xamarin/
 
 
-Documentation API pour les variables du JSON :
+- Documentation API pour les variables du JSON :
 https://openweathermap.org/current
 https://openweathermap.org/api
 
