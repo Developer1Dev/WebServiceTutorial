@@ -10,7 +10,7 @@ J'ai également ajouté une image à partir du fichier MainPage.xaml.cs
 
 - Dans le premier, cela ressemble beaucoup au fichier .xml généré par Qt Designer sous Qt Creator
 
-- Dans ce fichier .xaml, on fait la construction des parties de l'application au niveau interface graphique Front End
+- Dans ce fichier .xaml, on fait la construction des parties de l'application au niveau interface graphique Front End que l'on précise grâce MainPage.xaml.cs
 
 - On installe le bouton d'activation principal pour demander les informations sur le temps.
 
